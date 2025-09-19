@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: Libre Franklin;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* main */
+
+.header {
+    padding: 50px 0;
+}
+
+.navbar {
+    display: flex;
+    width: 630px;
+}
+
+.header .container {
+    display: flex;
+    align-items: baseline;
+    gap: 720px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header__link + .header__link {
+    margin-left: 45px;
+}
+
+.rectangle {
+    width: 10px;
+    height: 10px;
+    border-radius: 20%;
+    color: #ffffff;
+z-index: 2;
+}
+
+
+.get_started {
+    margin-left: 45px;
+    width: 120px;
+    height: 46px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+}
+
+.knopka {
+    margin:0 0 20px 15px;
+    display: flex;
+    width:120px;
+    height: 42px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.header_link {
+    margin-left: 10px;
+    width: 120px 46px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+
+}
+
+.background_photo {
+    width: 100%;
+    height: 100%;
+    width:1920px;
+    height:520px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.welc_title {
+    text-align: center;
+    font-size: 71px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: IBM Plex Mono;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.button {
+    width: 160px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #5AB963;
+    color: #ffffff;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* features */
+
+.features {
+    width: 1300px;
+    height: 528px;
+    margin: 240px 0px 0 380px;
+}
+
+
+.feature_s {
+    width: 524px;
+    height: 144px;
+}
+
+.feature_s_title {
+    color: #000000;
+    font-size: 24px;
+
+}
+
+.grey{
+    color: #999999;
+    font-weight: 50;
+}
+
+.feature_global{
+    display: flex;
+    margin-top:50px;
+}
+
+.cube_cup {
+    margin-right:30px;
+    width: 377px;
+    height:330px;
+    border: 2px solid #f7f7f7;
+}
+
+.cube_cups {
+margin: 70px 0 0 50px;
+}
+
+.nametag_cups {
+    font-weight: bold;
+    color: #000000;
+    margin: 20px 0 0 50px;
+}
+
+.text_cups {
+    width: 272px;
+    font-family: IBM Plex Mono;
+    font-weight: regular;
+    font-size: 13px;
+    color: #999999;
+    margin: 20px 0 0 50px;
+}
+
+/* premium */
+.premium {
+    background-color: #fafafa;
+    padding-bottom:100px;
+    margin-top: 100px;
+}
+
+
+.premium_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eggs_photo {
+    width: 100%;
+    margin: 0px 30px 70px 30px;
+}
+
+.premium_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+}
+
+.prem_text {
+    width:685px;
+    height:144px;
+}
+
+.prem_text_title {
+    text-align: center;
+    font-weight: 50;
+    font-size: 24px;
+    color: #999999;
+    margin:0;
+}
+
+.black {
+    font-weight: bold;
+    color: #000000;
+}
+
+.prem_button {
+    font-family: IBM Plex Mono;
+    font-weight: regular;
+    font-size: 11px;
+    color: #5AB963;
+}
+
+/* about premium */
+
+.about {
+    background-color: #fafafa;
+    padding: 100px 380px 100px 380px;
+
+}
+
+.about_container {
+    width:1170px;
+    height: 714px;
+text-align: left;
+}
+
+.about_title {
+display:flex;
+width: 1170px;
+height:330px;
+}
+
+.about_title1st {
+
+}
+
+.about_text1st {
+margin:0 220px 0 110px;
+}
+
+.nametag_about1st {
+    width:362px;
+    height:108px;
+    font-weight: 50;
+    font-size: 24px;
+    color: #999999;
+    margin:0;
+}
+
+.nametag_about1sttwo {
+    width:360px;
+    height:120px;
+    font-family: IBM Plex Mono;
+    font-weight: regular;
+    font-size: 13px;
+    color: #999999;
+    margin:0;
+}
+
+.about_titlend {
+    display:flex;
+    width: 1170px;
+    height:330px;
+    margin-top: 100px;
+}
+
+.about_text2nd {
+    margin:0 110px 0 220px;
+}
+/*article*/
+.prem_deal_article {
+    display: flex;
+    justify-content: center;
+    height: 264px;
+    background-color: #fafafa;
+
+}
+
+.about_premium {
+    width:1170px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.prem_deal {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.prem_button {
+
+}
+
+/*get started*/
+
+.start {
+    margin-top: 50px;
+    height:411px;
+    background-color: #fafafa;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.start_container {
+
+    display: flex;
+    width:1170px;
+    height:111px;
+}
+
+.start_text {
+    width:585px;
+    height:111;
+    text-align: left;
+}
+
+.start_textnull {
+    width:110px;
+}
+
+.party {
+    font-size:16px;
+    font-weight: bold;
+    color:#5ab963;
+}
+
+.rectangle2nd {
+    margin-top:9px;
+    float: right;
+    width:30px;
+    height:2px;
+    background-color: #5ab963;
+}
+
+.quassscipit{
+    text-align: left;
+    font-weight: 50;
+    font-size: 24px;
+    color: #999999;
+    margin:0;
+}
+
+
+.black2nds {
+    font-weight: 550;
+    color:#000000;
+}
+
+.start_button {
+    float: right;
+}
+
+.button2nd {
+    margin:25px 0 0 425px;
+    width: 160px;
+    height: 60px;
+    background-color: #5AB963;
+    color: #ffffff;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer {
+    height:400px;
+    background-color: #0A0E1A;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer_container {
+    display: flex;
+    width:1170px;
+    height: 130px;
+}
+
+.footer_logo {
+    text-align: left;
+    justify-content: left;
+    width:585px;
+    height:64px;
+}
+
+.footer_text {
+    font-size: 12px;
+    font-weight: regular;
+    color: #666666;
+}
+
+td {
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.footer_social {
+    margin: 15px 0 0 15px;
+}
+
+.social_f {
+    margin-right: 20px;
+}
+
+.social_x {
+    margin-right: 20px;
+}
