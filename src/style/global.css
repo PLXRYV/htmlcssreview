@@ -1,0 +1,21 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 125%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+button {
+  color: #fff;
+}

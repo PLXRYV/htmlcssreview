@@ -1,0 +1,41 @@
+.header {
+  padding: 0 0 22px;
+}
+
+.header__bg {
+  background: url("../images/background_welc.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 22px 0 120px;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navbar {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.navbar__rectangle {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+}
+
+.header__navbar .navbar__link:last-child {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 11px 17px;
+  line-height: 24px;
+}
+
+.main {
+  margin-top: 120px;
+}
+
+.main__content {
+  text-align: center;
+}
