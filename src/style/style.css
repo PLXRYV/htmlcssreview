@@ -30,64 +30,54 @@
 /* features */
 
 .features {
-    width: 1300px;
-    height: 528px;
-    margin: 240px 0px 0 380px;
+ padding: 120px 0 205px;
 }
 
-
-.feature_s {
-    width: 524px;
-    height: 144px;
-}
-
-.feature_s_title {
+.features__title {
     color: #000000;
     font-size: 24px;
-
+    line-height: 36px;
+    font-weight: bold;
+    max-width: 507px;
 }
 
-.grey{
+.features__title--modificator{
     color: #999999;
-    font-weight: 50;
+    font-weight: 100;
 }
 
-.feature_global{
+.features__content{
     display: flex;
-    margin-top:50px;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 105px;
 }
 
-.cube_cup {
-    margin-right:30px;
-    width: 377px;
-    height:330px;
-    border: 2px solid #f7f7f7;
+.content__box {
+padding: 35px;
+border: 2px solid #dbdbdb;
 }
 
-.cube_cups {
-margin: 70px 0 0 50px;
-}
-
-.nametag_cups {
+.content__box-title {
     font-weight: bold;
     color: #000000;
-    margin: 20px 0 0 50px;
+    margin: 25px 0 13px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-.text_cups {
-    width: 272px;
-    font-family: IBM Plex Mono;
-    font-weight: regular;
+
+.content__box-text {
+    max-width: 272px;
+    font-family: "IBM Plex Mono", sans-serif;
     font-size: 13px;
+    line-height: 24px;
     color: #999999;
-    margin: 20px 0 0 50px;
 }
-
 /* premium */
 .premium {
     background-color: #fafafa;
     padding-bottom:100px;
-    margin-top: 100px;
 }
 
 
