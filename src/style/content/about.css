@@ -1,0 +1,61 @@
+/* about premium */
+.about {
+  padding: 120px 0;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.about__box {
+  display: flex;
+  gap: 100px;
+}
+
+.about__box:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.about__inner {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about__inner-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 200;
+  color: #999999;
+}
+
+.about__inner-title > span {
+  font-weight: 700;
+  color: #000;
+}
+
+.about__inner-text {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.about__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 110px;
+}
+
+.about__link-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
