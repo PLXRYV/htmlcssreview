@@ -4,7 +4,6 @@
     padding: 150px 0;
 }
 
-
 .start__container {
     display: flex;
     justify-content: space-between;
@@ -27,13 +26,13 @@
     font-size:16px;
     font-weight: 700;
     line-height: 24px;
-    color:#5ab963;
+    color: var(--colors-green);
 }
 
 .start__box-rectangle {
     width:30px;
     height:2px;
-    background-color: #5ab963;
+    background-color: var(--colors-green);
 }
 
 .start__box-text {
@@ -41,16 +40,16 @@
     font-size: 24px;
     font-weight: 100;
     line-height: 36px;
-    color: #999;
+    color: var(--colors-grey);
 }
 
 .start__box-text > span {
     font-weight: 400;
-    color: #000;
+    color: var(--colors-black);
 }
 
 .start__button-btn {
-    background-color: #5AB963;
+    background-color: var(--colors-green);
     border: none;
     border-radius: 4px;
     cursor: pointer;
