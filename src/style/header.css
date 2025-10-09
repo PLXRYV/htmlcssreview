@@ -22,12 +22,35 @@
 .navbar__rectangle {
   width: 4px;
   height: 4px;
-  background-color: #fff;
+  background-color: var(--colors-white);
 }
 
 .header__navbar .navbar__link:last-child {
-  border: 2px solid #ffffff;
+  border: 2px solid var(--colors-white);
   border-radius: 4px;
   padding: 11px 17px;
   line-height: 24px;
+}
+
+.header__navbar a {
+    transition: all .4s;
+}
+
+.header__navbar a:hover {
+    transform: scale(1.2);
+}
+
+/* 375 640 768 994 1170 1440 */
+
+@media (max-width: 994px) {
+    .header__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .header__navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }

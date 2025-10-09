@@ -1,7 +1,7 @@
 body {
   font-family: "Libre Franklin", sans-serif;
-  color: #fff;
-  background-color: #fff;
+  color: var(--colors-white);
+  background-color: var(--colors-white);
   font-size: 14px;
   line-height: 125%;
 }
@@ -18,5 +18,11 @@ body {
 }
 
 button {
-  color: #fff;
+  color: var(--colors-white);
+}
+
+@media (max-width: 1170px) {
+  .container {
+      max-width: 80%;
+  }
 }

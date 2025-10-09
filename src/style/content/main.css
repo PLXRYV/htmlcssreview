@@ -22,11 +22,24 @@
 }
 
 .main__content-box__button {
-  background-color: #5AB963;
+  background-color: var(--colors-green);
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
   line-height: 30px;
   padding: 15px 30px;
+  transition: all .4s;
+}
+
+.main__content-box__button:hover {
+  transform: scale(1.1);
+}
+
+/* 375 640 768 994 1170 1440 */
+
+@media (max-width: 640px){
+.main__content-title {
+ font-size: 52px;
+}
 }

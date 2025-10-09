@@ -56,4 +56,25 @@
     font-size: 16px;
     line-height: 30px;
     padding: 15px 30px;
+    transition: all .4s;
+}
+
+.start__button-btn:hover {
+    transform: scale(1.1);
+}
+
+/* 375 640 768 994 1170 1440 */
+
+@media (max-width: 994px) {
+    .start__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .start__box-text {
+        text-align: center;
+    }
 }

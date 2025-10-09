@@ -3,7 +3,7 @@
 
 .premium__container{
   padding: 115px 0 120px;
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 1px solid var(--colors-milk-white);
 }
 
 .premium__box {
@@ -20,11 +20,11 @@
   font-weight: 200;
   font-size: 24px;
   line-height: 36px;
-  color: #999999;
+  color: var(--colors-grey);
 }
 
 .premium__box-text > span {
-  color: #000;
+  color: var(--colors-black);
   font-weight: 700;
 }
 
@@ -33,5 +33,19 @@
   font-weight: 400;
   font-size: 11px;
   line-height: 18px;
-  color: #5AB963;
+  color: var(--colors-green);
+  transition: all .4s;
+  border-bottom: 1px solid transparent;
+}
+
+.premium__button:hover {
+  border-bottom: 1px solid var(--colors-green);
+}
+
+/* 375 640 768 994 1170 1440 */
+
+@media (max-width: 1440px) {
+    .premium__img {
+        max-width: 100%;
+    }
 }

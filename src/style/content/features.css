@@ -4,7 +4,7 @@
 }
 
 .features__title {
-  color: #000000;
+  color: var(--colors-black);
   font-size: 24px;
   line-height: 36px;
   font-weight: bold;
@@ -12,7 +12,7 @@
 }
 
 .features__title--modificator{
-  color: #999999;
+  color: var(--colors-grey);
   font-weight: 100;
 }
 
@@ -25,12 +25,12 @@
 
 .content__box {
   padding: 35px;
-  border: 2px solid #dbdbdb;
+  border: 2px solid var(--colors-light-grey);
 }
 
 .content__box-title {
   font-weight: bold;
-  color: #000000;
+  color: var(--colors-black);
   margin: 25px 0 13px;
   font-size: 16px;
   line-height: 24px;
@@ -42,5 +42,20 @@
   font-family: "IBM Plex Mono", sans-serif;
   font-size: 13px;
   line-height: 24px;
-  color: #999999;
+  color: var(--colors-grey);
+}
+
+/* 375 640 768 994 1170 1440 */
+
+@media (max-width: 994px) {
+.features__content {
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+    .features__title {
+        text-align: center;
+    }
 }
